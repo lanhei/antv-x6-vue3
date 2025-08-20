@@ -1,0 +1,32 @@
+{
+  "name": "antv-x6-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.18",
+    "vue-router": "^4.0.0",
+    "@antv/x6": "latest",
+    "@antv/x6-vue-shape": "latest",
+    "@antv/x6-plugin-clipboard": "latest",
+    "@antv/x6-plugin-history": "latest",
+    "@antv/x6-plugin-keyboard": "latest",
+    "@antv/x6-plugin-selection": "latest",
+    "@antv/x6-plugin-snapline": "latest",
+    "@antv/x6-plugin-stencil": "latest",
+    "@antv/x6-plugin-transform": "latest",
+    "insert-css": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
+  }
+}

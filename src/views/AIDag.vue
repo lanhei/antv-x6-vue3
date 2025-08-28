@@ -273,7 +273,8 @@ export default {
       }, 3000);
     };
 
-    fetch("https://x6.antv.antgroup.com/data/dag.json")
+    //https://x6.antv.antgroup.com/data/dag.json
+    fetch("/data/dag.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

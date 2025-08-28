@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1>示例页面导航</h1>
+  <h1>阿里X6示例页面导航</h1>
   <table>
     <thead>
       <tr>
@@ -12,12 +12,56 @@
     </thead>
     <tbody>
       <tr>
-        <td>打开流程页面</td>
+        <td>流程图</td>
         <td><a href="/process" target="_blank">点击访问</a></td>
       </tr>
       <tr>
-        <td>打开dag页面</td>
-        <td><a href="/dag" target="_blank">点击访问</a></td>
+        <td>人工智能建模 DAG 图</td>
+        <td><a href="/aidag" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>数据加工 DAG 图</td>
+        <td><a href="/datadag" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>ER图</td>
+        <td><a href="/er" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>思维导图</td>
+        <td><a href="/mind" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>BPMN</td>
+        <td><a href="/bpmn" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>泳道图</td>
+        <td><a href="/swim" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>ELK</td>
+        <td><a href="/elk" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>组织架构图</td>
+        <td><a href="/org" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>组织架构图（自动布局）</td>
+        <td><a href="/orgAuto" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>UML类图</td>
+        <td><a href="/uml" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>展开/折叠树</td>
+        <td><a href="/tree" target="_blank">点击访问</a></td>
+      </tr>
+      <tr>
+        <td>内置节点(rect)</td>
+        <td><a href="/rect" target="_blank">点击访问</a></td>
       </tr>
     </tbody>
   </table>
